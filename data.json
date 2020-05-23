@@ -1,0 +1,22 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "NodeJS",
+      "author": "John",
+      "topic": "Javascript"
+    },
+    {
+      "id": 2,
+      "title": "React",
+      "author": "Mike",
+      "topic": "Front"
+    },
+    {
+      "id": 3,
+      "title": "Deno",
+      "author": "Kime",
+      "topic": "Javascript"
+    }
+  ]
+}
