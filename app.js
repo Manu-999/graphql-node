@@ -4,7 +4,11 @@ const app = express();
 const express_graphql = require('express-graphql');
 const { buildSchema } = require('graphql');
 
-const schema = buildSchema();
+const schema = buildSchema(`
+  type Query {
+    message: String
+  }
+`);
 const root = {
   message: () => 'Hello World',
 };
